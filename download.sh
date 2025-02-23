@@ -9,8 +9,7 @@ if test $version = "-h"; then
     echo $help; exit
 fi
 
-disk="${version}-server-cloudimg-amd64.img"
-root="${version}-server-cloudimg-amd64-root.tar.xz"
+disk="${version}-server-cloudimg-amd64-disk-kvm.img"
 
 if test -f "img/$disk"; then
     echo "$disk exists"
